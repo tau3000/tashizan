@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* TashizanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* TashizanAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28D7ACF80DDB3853001CB0EB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RootViewController.m */; };
+		430D3E951366A31300BD14EA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 430D3E941366A31300BD14EA /* Default.png */; };
+		430D3EEC1366B5F600BD14EA /* tashizan.png in Resources */ = {isa = PBXBuildFile; fileRef = 430D3EEB1366B5F600BD14EA /* tashizan.png */; };
+		430D3EF31366B66A00BD14EA /* RankingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 430D3EF21366B66A00BD14EA /* RankingManager.m */; };
+		430D3F181366C23200BD14EA /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430D3F171366C23200BD14EA /* RankingViewController.m */; };
+		43604952136008B4005F7C90 /* ExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43604951136008B4005F7C90 /* ExamViewController.m */; };
+		4360499613601ACB005F7C90 /* bg_exam.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4360499513601ACB005F7C90 /* bg_exam.gif */; };
+		436049AA13602101005F7C90 /* QuestionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 436049A913602101005F7C90 /* QuestionManager.m */; };
+		4379657619C8042B00FC348D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4379657519C8042B00FC348D /* Default-568h@2x.png */; };
+		43B0F1A2136217C800831560 /* ScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B0F1A1136217C800831560 /* ScoreViewController.m */; };
+		43B0F1B913639DF900831560 /* StopWatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B0F1B813639DF900831560 /* StopWatch.m */; };
+		43B0F22A1363E07D00831560 /* ScoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B0F2291363E07D00831560 /* ScoreManager.m */; };
+		43B0F2311363E16D00831560 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B0F2301363E16D00831560 /* Score.m */; };
+		43B0F2731365696E00831560 /* QuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B0F2721365696E00831560 /* QuestionView.m */; };
+		43CD5E2613602AB900F87A26 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD5E2513602AB900F87A26 /* Question.m */; };
+		43CD5FCB1360842700F87A26 /* answer.png in Resources */ = {isa = PBXBuildFile; fileRef = 43CD5FCA1360842700F87A26 /* answer.png */; };
+		43DB84F9136651E9006B6E2B /* ScoreHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43DB84F8136651E9006B6E2B /* ScoreHistoryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* TashizanAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TashizanAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* TashizanAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TashizanAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Tashizan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tashizan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28D7ACF60DDB3853001CB0EB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Tashizan_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tashizan_Prefix.pch; sourceTree = "<group>"; };
+		430D3E941366A31300BD14EA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		430D3EEB1366B5F600BD14EA /* tashizan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tashizan.png; sourceTree = "<group>"; };
+		430D3EF11366B66A00BD14EA /* RankingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingManager.h; sourceTree = "<group>"; };
+		430D3EF21366B66A00BD14EA /* RankingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingManager.m; sourceTree = "<group>"; };
+		430D3F161366C23200BD14EA /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
+		430D3F171366C23200BD14EA /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
+		43604950136008B4005F7C90 /* ExamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamViewController.h; sourceTree = "<group>"; };
+		43604951136008B4005F7C90 /* ExamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamViewController.m; sourceTree = "<group>"; };
+		4360499513601ACB005F7C90 /* bg_exam.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bg_exam.gif; sourceTree = "<group>"; };
+		436049A813602101005F7C90 /* QuestionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionManager.h; sourceTree = "<group>"; };
+		436049A913602101005F7C90 /* QuestionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionManager.m; sourceTree = "<group>"; };
+		4379657519C8042B00FC348D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		43B0F1A0136217C800831560 /* ScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreViewController.h; sourceTree = "<group>"; };
+		43B0F1A1136217C800831560 /* ScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreViewController.m; sourceTree = "<group>"; };
+		43B0F1B713639DF900831560 /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		43B0F1B813639DF900831560 /* StopWatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatch.m; sourceTree = "<group>"; };
+		43B0F2281363E07D00831560 /* ScoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreManager.h; sourceTree = "<group>"; };
+		43B0F2291363E07D00831560 /* ScoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreManager.m; sourceTree = "<group>"; };
+		43B0F22F1363E16D00831560 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		43B0F2301363E16D00831560 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		43B0F2711365696E00831560 /* QuestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionView.h; sourceTree = "<group>"; };
+		43B0F2721365696E00831560 /* QuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionView.m; sourceTree = "<group>"; };
+		43CD5E2413602AB900F87A26 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		43CD5E2513602AB900F87A26 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		43CD5FCA1360842700F87A26 /* answer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = answer.png; sourceTree = "<group>"; };
+		43DB84F7136651E9006B6E2B /* ScoreHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreHistoryViewController.h; sourceTree = "<group>"; };
+		43DB84F8136651E9006B6E2B /* ScoreHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreHistoryViewController.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Tashizan-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Tashizan-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				430D3F161366C23200BD14EA /* RankingViewController.h */,
+				430D3F171366C23200BD14EA /* RankingViewController.m */,
+				430D3EF11366B66A00BD14EA /* RankingManager.h */,
+				430D3EF21366B66A00BD14EA /* RankingManager.m */,
+				43DB84F7136651E9006B6E2B /* ScoreHistoryViewController.h */,
+				43DB84F8136651E9006B6E2B /* ScoreHistoryViewController.m */,
+				43B0F2711365696E00831560 /* QuestionView.h */,
+				43B0F2721365696E00831560 /* QuestionView.m */,
+				43B0F22F1363E16D00831560 /* Score.h */,
+				43B0F2301363E16D00831560 /* Score.m */,
+				43B0F2281363E07D00831560 /* ScoreManager.h */,
+				43B0F2291363E07D00831560 /* ScoreManager.m */,
+				43B0F1B713639DF900831560 /* StopWatch.h */,
+				43B0F1B813639DF900831560 /* StopWatch.m */,
+				43B0F1A0136217C800831560 /* ScoreViewController.h */,
+				43B0F1A1136217C800831560 /* ScoreViewController.m */,
+				43CD5E2413602AB900F87A26 /* Question.h */,
+				43CD5E2513602AB900F87A26 /* Question.m */,
+				1D3623240D0F684500981E51 /* TashizanAppDelegate.h */,
+				1D3623250D0F684500981E51 /* TashizanAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* RootViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* RootViewController.m */,
+				43604950136008B4005F7C90 /* ExamViewController.h */,
+				43604951136008B4005F7C90 /* ExamViewController.m */,
+				436049A813602101005F7C90 /* QuestionManager.h */,
+				436049A913602101005F7C90 /* QuestionManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Tashizan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				4379657519C8042B00FC348D /* Default-568h@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Tashizan_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				430D3EEB1366B5F600BD14EA /* tashizan.png */,
+				430D3E941366A31300BD14EA /* Default.png */,
+				43CD5FCA1360842700F87A26 /* answer.png */,
+				4360499513601ACB005F7C90 /* bg_exam.gif */,
+				8D1107310486CEB800E47090 /* Tashizan-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Tashizan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Tashizan" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tashizan;
+			productName = Tashizan;
+			productReference = 1D6058910D05DD3D006BFB54 /* Tashizan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tashizan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Tashizan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4360499613601ACB005F7C90 /* bg_exam.gif in Resources */,
+				43CD5FCB1360842700F87A26 /* answer.png in Resources */,
+				430D3E951366A31300BD14EA /* Default.png in Resources */,
+				4379657619C8042B00FC348D /* Default-568h@2x.png in Resources */,
+				430D3EEC1366B5F600BD14EA /* tashizan.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* TashizanAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* RootViewController.m in Sources */,
+				43604952136008B4005F7C90 /* ExamViewController.m in Sources */,
+				436049AA13602101005F7C90 /* QuestionManager.m in Sources */,
+				43CD5E2613602AB900F87A26 /* Question.m in Sources */,
+				43B0F1A2136217C800831560 /* ScoreViewController.m in Sources */,
+				43B0F1B913639DF900831560 /* StopWatch.m in Sources */,
+				43B0F22A1363E07D00831560 /* ScoreManager.m in Sources */,
+				43B0F2311363E16D00831560 /* Score.m in Sources */,
+				43B0F2731365696E00831560 /* QuestionView.m in Sources */,
+				43DB84F9136651E9006B6E2B /* ScoreHistoryViewController.m in Sources */,
+				430D3EF31366B66A00BD14EA /* RankingManager.m in Sources */,
+				430D3F181366C23200BD14EA /* RankingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tashizan_Prefix.pch;
+				INFOPLIST_FILE = "Tashizan-Info.plist";
+				PRODUCT_NAME = Tashizan;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Tashizan_Prefix.pch;
+				INFOPLIST_FILE = "Tashizan-Info.plist";
+				PRODUCT_NAME = Tashizan;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Tashizan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Tashizan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
